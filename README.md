@@ -13,6 +13,8 @@ In order to add one endpoint(s), it is required to add/create the following comp
 3. [Route/Endpoint](#routeendpoint)
 4. [Operation](#operation)
 
+Here is a [PR](https://github.com/gomespgp/py-fastapi/pull/4) that adds new endpoints. Take it as example.
+
 ## Schema
 Schemas are responsible for defining and validating Input and Output of the API.
 
