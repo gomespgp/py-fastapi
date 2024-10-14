@@ -12,3 +12,12 @@ class AirbnbBooking(Base):
     place_id: Mapped[int]
     start_date: Mapped[date]
     stays: Mapped[int]
+
+class BookingcomBooking(Base):
+    __tablename__ = f"booking_bookings"
+
+    id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True, index=True)
+    host_id: Mapped[int]
+    place_id: Mapped[int]
+    start_date: Mapped[date]
+    stays: Mapped[int]
